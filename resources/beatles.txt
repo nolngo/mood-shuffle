@@ -1,0 +1,12 @@
+john,inmylife.mp3
+john,strawberryfieldsforever
+john,acrosstheuniverse.mp3
+paul,heyjude.mp3
+paul,eleanorrigby.mp3
+paul,pennylane.mp3
+george,herecomesthesun.mp3
+george,something.mp3
+george,whilemyguitargentlyweeps.mp3
+ringo,withalittlehelpfrommyfriends.mp3
+ringo,octopusgarden.mp3
+ringo,yellowsubmarine.mp3
