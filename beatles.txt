@@ -1,5 +1,5 @@
 john,inmylife.mp3
-john,strawberryfieldsforever
+john,strawberryfieldsforever.mp3
 john,acrosstheuniverse.mp3
 paul,heyjude.mp3
 paul,eleanorrigby.mp3

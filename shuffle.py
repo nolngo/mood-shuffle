@@ -1,3 +1,5 @@
+import random
+from playsound import playsound
 def load_playlist(filename):
     playlist = open(filename, "r")
     mood_song = []
@@ -10,6 +12,19 @@ def load_playlist(filename):
         if mood in mood_playlist:       #checking if mood(john) is already in a playlist, if it is
             mood_playlist[mood].append(song)        #get the rest of lists with (john) as mood, and append it with other (john) songs.
         else:       #else means that if john is not in the play list yet-
-            mood_playlist[mood] = [song]        #a new list of john songs is created and that list contains the first (john) song.
+            mood_playlist[mood] = [song]        #a new list of (john) songs is created and that list contains the first (john) song.
     return mood_playlist
-print(load_playlist("beatles.txt"))
+
+def get_shuffle(dlc_playlist):
+    input_mood = input("What type of mood are you feelin'? ")
+    random_song = ""
+    if input_mood in dlc_playlist:
+        random_song = random.choice(dlc_playlist[input_mood])
+    else: 
+        print("Please enter a valid input")
+    return random_song
+
+def mood_shuffle(shuffle_song):
+    playsound(shuffle_song)
+
+mood_shuffle(get_shuffle(load_playlist("beatles.txt")))
