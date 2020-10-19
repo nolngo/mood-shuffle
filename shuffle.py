@@ -21,10 +21,14 @@ def get_shuffle(dlc_playlist):
     if input_mood in dlc_playlist:
         random_song = random.choice(dlc_playlist[input_mood])
     else: 
-        print("Please enter a valid input")
+        print("Please enter a valid input ")
     return random_song
 
 def mood_shuffle(shuffle_song):
     playsound(shuffle_song)
 
-mood_shuffle(get_shuffle(load_playlist("beatles.txt")))
+playlist = load_playlist("schoolhouserock.txt")
+song = get_shuffle(playlist)
+print(song)
+
+mood_shuffle(song)
