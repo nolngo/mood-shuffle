@@ -1,0 +1,16 @@
+psychology,psychpodcast1.mp3
+psychology,psychpodcast2.mp3
+psychology,psychpodcast3.mp3
+worldnews,worldpodcast1.mp3
+worldnews,worldpodcast2.mp3
+worldnews,worldpodcast3.mp3
+economics,economicspodcast1.mp3
+economics,economicspodcast2.mp3
+economics,economicspodcast3.mp3
+politics,politicalpodcast1.mp3
+politics,politicalpodcast2.mp3
+politics,politicalpodcast3.mp3
+joerogan,roganpodcast1.mp3
+joerogan,roganpodcast2.mp3
+joerogan,roganpodcast3.mp3
+
