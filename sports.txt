@@ -1,8 +1,8 @@
-basketball
-basketball
-basketball
-soccer
-soccer
+basketball,awesome.mp3
+basketball,swishswish.mp3
+basketball,basketball.mp3
+soccer,wakawaka.mp3
+soccer,
 soccer
 yoga
 yoga
