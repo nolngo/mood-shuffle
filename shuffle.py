@@ -1,5 +1,5 @@
-import random
-from playsound import playsound
+import random       #allows for the random picking of the get_shuffle function.
+from playsound import playsound     #from the installed path of the playsound plugin I was able to
 def load_playlist(filename):
     playlist = open(filename, "r")
     mood_song = []
@@ -27,7 +27,7 @@ def get_shuffle(dlc_playlist):
 def mood_shuffle(shuffle_song):
     playsound(shuffle_song)
 
-playlist = load_playlist("schoolhouserock.txt")
+playlist = load_playlist(input("What playlist would you like to listen to? "))
 song = get_shuffle(playlist)
 print(song)
 
